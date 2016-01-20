@@ -1,0 +1,96 @@
+Body {
+background-color: #cccccc;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#b7b7b7), to(#cccccc));
+background-image: -webkit-linear-gradient(top, #b7b7b7, #cccccc);
+background-image: -moz-linear-gradient(top, #b7b7b7, #cccccc);
+background-image: -o-linear-gradient(top, #b7b7b7, #cccccc);
+background-image: linear-gradient(to bottom, #b7b7b7, #cccccc);
+height: 100%;
+width: auto;
+padding: 20px;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+ }
+1- Heading1 {
+font:normal 28px/120% "Intel Clear W", Arial, sans-serif;
+color:rgb(51,51,51);
+text-align:center;
+text-shadow:0px 1px 0px rgb(238,238,238); }
+2- Heading2 {
+font:normal 16px/120% "Intel Clear W", Arial, sans-serif;
+color:rgb(51,51,51);
+text-align:center; }
+3- { 
+height: 30px;
+width: 100%;
+font:normal 14px/120% "Intel Clear W", Arial, sans-serif;
+font-size:14px;
+color:rgb(84,84,84);
+text-align:center; 
+border:rgb(187,187,187) 1px solid; }
+.Top { background-color:rgb(170,170,170); -webkit-border-radius:50% 50% 0 0; border-radius:50% 50% 0 0; }
+.Middle { background-color:rgb(187,187,187); }
+.Bottom { background-color:rgb(204,204,204); -webkit-border-radius:0 0 50% 50%; border-radius:0 0 50% 50%;}
+4- Button {
+background-image:-webkit-gradient(linear,43% 0%,43% 110%,color-stop(0, rgb(221,221,221)),color-stop(0.01, rgb(221,221,221)),color-stop(0.04, rgb(204,204,204)),color-stop(1, rgb(170,170,170)));
+background-image:-webkit-linear-gradient(-90deg,rgb(221,221,221) 0%,rgb(221,221,221) 1%,rgb(204,204,204) 4%,rgb(170,170,170) 100%);
+background-image:linear-gradient(180deg,rgb(221,221,221) 0%,rgb(221,221,221) 1%,rgb(204,204,204) 4%,rgb(170,170,170) 100%);
+width:auto;
+height:30px;
+border:rgb(153,153,153) 1px solid;
+-webkit-border-radius:50%;
+border-radius:50%;
+margin:5px;
+padding:17px;
+font:normal 16px/120% "Intel Clear W", Arial, sans-serif;
+color:rgb(84,84,84);
+text-align:center;
+text-shadow:0px 1px 0px rgb(221,221,221); }
+5- Selected Button {
+background-image:-webkit-gradient(linear,62% 0%,62% 110%,color-stop(0, rgb(136,136,136)),color-stop(0.01, rgb(136,136,136)),color-stop(0.04, rgb(119,119,119)),color-stop(1, rgb(102,102,102)));
+background-image:-webkit-linear-gradient(-90deg,rgb(136,136,136) 0%,rgb(136,136,136) 1%,rgb(119,119,119) 4%,rgb(102,102,102) 100%);
+background-image:linear-gradient(180deg,rgb(136,136,136) 0%,rgb(136,136,136) 1%,rgb(119,119,119) 4%,rgb(102,102,102) 100%);
+width:auto;
+height:30px;
+border:rgb(85,85,85) 1px solid;
+-webkit-border-radius:50%;
+border-radius:50%;
+margin:5px;
+padding:17px;
+font:normal 16px/120% "Intel Clear W", Arial, sans-serif;
+color:rgb(238,238,238);
+text-align:center;
+text-shadow:0px 1px 0px rgb(85,85,85); }
+6- Labels {
+font:normal 14px/180% "Intel Clear W", Arial, sans-serif;
+color:rgb(84,84,84);
+text-align:right; }
+7- Info {
+font:normal 14px/180% "Intel Clear W", Arial, sans-serif;
+color:rgb(255,255,255);
+text-align:left; }
+8- Link {
+font:italic 14px/140% "Intel Clear W Italic", Arial, sans-serif;
+text-decoration:underline;
+color:rgb(0,113,197);
+text-align:center; }
+9- Scroll Box {
+background-color:rgb(255,255,255);
+width:100%;
+height:225px;
+border:rgb(153,153,153) 1px solid;
+font:normal 14px/120% "Intel Clear W Italic", Arial, sans-serif;
+color:rgb(51,51,51);
+text-align:left; }
+.Scroll Bar {
+background-color:rgb(204,204,204);
+width:7px;
+height:auto;
+-webkit-border-radius:57%/3%;
+border-radius:57%/3%; }
+10- Spacer {
+border:rgb(153,153,153) 1px solid;
+-webkit-box-shadow:0px 1px 0px rgba(255,255,255,0.3);
+box-shadow:0px 1px 0px rgba(255,255,255,0.3);
+margin: 20px 0px }

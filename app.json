@@ -1,0 +1,19 @@
+{
+  "title" : "Cordova sharing",
+  "abbr" : "Cordova sharing", 
+  "tooltip" : "A simple HTML5 app that show how text or files can be shared with other apps like Facebook, Twitter, SMS or Email.",
+  "description" : "A simple HTML5 app that show how text or files can be shared with other apps like Facebook, Twitter, SMS or Email.",
+  "repoName" : "sample-cordova-sharing",
+  "articleUrl" : "https://github.com/krisrak/html5-cordova-plugin-sharing",
+  "section" : "samples",
+  "group" : "other",
+  "visible" : true,
+  "samples" : true,
+  "keywords" : ["jQuery" , "Game"],
+  "highlights" : ["Swipe gestures" , "Animation"],
+  "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+  "gameEngine" : { "name": "cocos2d" , "version": "2.x" },
+  "appname" : "demo.cordovasharing",
+  "relname" : "4.0.0",
+  "relationship" : "cocos2d"
+}

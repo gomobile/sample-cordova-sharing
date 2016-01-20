@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cordova Sharing Plugin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+body {font-family:Arial}      
+    </style>
+</head>
+<body>
+    <br>
+    <h1>Sharing Plugin</h1>
+    <p><button onclick="shareToFacebook()">Facebook</button></p>
+    <p><button onclick="shareToTwitter()">Twitter</button></p>
+    <p><button onclick="shareToSMS()">Text Message</button></p>
+    <p><button onclick="shareToEmail()">Email</button></p>
+    <p><button onclick="shareToOptions()">Share Options</button></p>
+
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="app.css">
+
+    <script>
+        
+        function onDeviceReady() {
+            
+        }
+        document.addEventListener("deviceready", onDeviceReady, true);
+        
+        function shareToFacebook(){
+            window.plugins.socialsharing.shareViaFacebook(
+                'Message via Facebook', 
+                null /* img */, 
+                null /* url */, 
+                function() {console.log('share ok')}, 
+                function(errormsg){alert(errormsg)}
+            );
+        }
+        
+        function shareToTwitter(){
+            window.plugins.socialsharing.shareViaTwitter(
+                'Message via Twitter', 
+                null /* img */, 
+                null /* url */, 
+                function() {console.log('share ok')}, 
+                function(errormsg){alert(errormsg)}
+            );
+        }
+        
+        function shareToSMS(){
+            window.plugins.socialsharing.shareViaSMS(
+                'Message via SMS', 
+                '1234567890' /* phone numbers comma seperated */, 
+                function() {console.log('share ok')}, 
+                function(errormsg){alert(errormsg)}
+            );
+        }
+        
+        function shareToEmail(){
+            window.plugins.socialsharing.shareViaEmail(
+                'Message via Email',
+                'Subject',
+                ['name@companyname.com'] /* to :array or null */, 
+                null /* cc :array or null */,
+                null /* bcc :array or null */,
+                null /* files :array or null */,
+                function() {console.log('share ok')}, 
+                function(errormsg){alert(errormsg)}
+            );
+        }
+        
+        function shareToOptions(){
+            window.plugins.socialsharing.share(
+                'Message via Share'
+            );
+        }
+        
+    </script>    
+</body>
+</html>
