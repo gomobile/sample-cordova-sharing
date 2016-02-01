@@ -5,7 +5,7 @@
       "type": "Blank Project",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "blankproject",
-      "projectGuid": "170859bc-070f-4ffb-9254-4679df7cdcf8",
+      "projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1452898483128,
       "creationDate": 1412106138008
     },
@@ -37,13 +37,14 @@
         "dependsOn": [],
         "dependedBy": [],
         "topLevel": true,
+        
         "gitref": "",
         "name": "Splashscreen",
         "description": "Cordova Splashscreen Plugin"
       },
       {
         "id": "cordova-plugin-x-socialsharing",
-        "version": "4.3.20",
+        "version": "?",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
@@ -51,7 +52,7 @@
         "name": "SocialSharing",
         "origin": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
         "originType": "repo",
-        "gitref": "4.3.20",
+        "gitref": "",
         "subdir": ".",
         "permissions": {
           "android:name": [
@@ -61,6 +62,7 @@
         "dependsOn": [],
         "dependedBy": [],
         "topLevel": true,
+        
         "cordovaVersion": ">=3.0.0",
         "description": "\n    This plugin allows you to share text, images (and other files), or a link via the native sharing widget of your device.\n    Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.\n  ",
         "author": "Eddy Verbruggen"
@@ -75,6 +77,7 @@
         "paramvals": {},
         "sourceLocation": "plugins/cordova-plugin-device",
         "selectedState": "Included",
+        
         "dependsOn": [],
         "topLevel": true,
         "permissions": {},
@@ -95,21 +98,18 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.shar",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [
-            "*"
-          ],
-          "intents": [],
-          "navigation": []
-        },
+       "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "5.1.1",
-        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "",
         "appAuthor_": "Intel XDK",
@@ -126,21 +126,18 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.sha",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [
-            "*"
-          ],
-          "intents": [],
-          "navigation": []
-        },
+        "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "5.1.1",
-        "crosswalkVersion_": "15",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "",
         "appAuthor_": "",
@@ -157,26 +154,23 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.sharing",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [
-            "*"
-          ],
-          "intents": [],
-          "navigation": []
-        },
+        "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [
           {
-            "relPath": "alldevice (1).mobileprovision",
+            "relPath": "",
             "type": "adhoc"
           }
         ],
-        "cordovaCLIVersion_": "5.1.1",
-        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": ""
       },
@@ -191,21 +185,18 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.sharing",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [
-            "*"
-          ],
-          "intents": [],
-          "navigation": []
-        },
+        "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "5.1.1",
-        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "0.0.0.1",
         "appDescription_": ""
       },
@@ -217,12 +208,11 @@
         "isActive_": false,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [],
-          "intents": [],
-          "navigation": []
-        },
+        "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -237,12 +227,11 @@
         "isActive_": false,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [],
-          "intents": [],
-          "navigation": []
-        },
+        "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -257,12 +246,11 @@
         "isActive_": false,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [],
-          "intents": [],
-          "navigation": []
-        },
+        "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -277,12 +265,11 @@
         "isActive_": false,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [],
-          "intents": [],
-          "navigation": []
-        },
+        "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -297,18 +284,17 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [],
-          "intents": [],
-          "navigation": []
-        },
+       "appAccess_":[
+          {
+         "origin":"*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
-        "cordovaCLIVersion_": "5.1.1"
+        "cordovaCLIVersion_": "?"
       }
     },
     "gameAssetDirectory": "asset",
