@@ -27,7 +27,7 @@
     "cordovaPlugins": [
       {
         "id": "cordova-plugin-splashscreen",
-        "version": "2.1.0",
+        "version": "?",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
@@ -37,13 +37,12 @@
         "dependsOn": [],
         "dependedBy": [],
         "topLevel": true,
-        "checksum": "170efb68",
         "gitref": "",
         "name": "Splashscreen",
         "description": "Cordova Splashscreen Plugin"
       },
       {
-        "id": "nl.x-services.plugins.socialsharing",
+        "id": "cordova-plugin-x-socialsharing",
         "version": "4.3.20",
         "selectedState": "Included",
         "data": {},
@@ -62,7 +61,6 @@
         "dependsOn": [],
         "dependedBy": [],
         "topLevel": true,
-        "checksum": "527afc1e",
         "cordovaVersion": ">=3.0.0",
         "description": "\n    This plugin allows you to share text, images (and other files), or a link via the native sharing widget of your device.\n    Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.\n  ",
         "author": "Eddy Verbruggen"
@@ -70,14 +68,13 @@
       {
         "id": "cordova-plugin-device",
         "name": "Device",
-        "version": "1.1.0",
+        "version": "?",
         "originType": "cordova.io",
         "origin": "cordova-plugin-device",
         "gitref": "",
         "paramvals": {},
         "sourceLocation": "plugins/cordova-plugin-device",
         "selectedState": "Included",
-        "checksum": "1eae5d64",
         "dependsOn": [],
         "topLevel": true,
         "permissions": {},
