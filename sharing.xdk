@@ -140,7 +140,7 @@
         "crosswalkVersion_": "?",
         "appVersion_": "0.0.1",
         "appDescription_": "",
-        "appAuthor_": "",
+        "appAuthor_": "Intel XDK",
         "appVersionCode_": "1"
       },
       "iOS": {
@@ -171,6 +171,7 @@
         ],
         "cordovaCLIVersion_": "?",
         "crosswalkVersion_": "?",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1",
         "appDescription_": ""
       },
@@ -196,6 +197,7 @@
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "?",
+        "appAuthor_": "Intel XDK",
         "crosswalkVersion_": "?",
         "appVersion_": "0.0.0.1",
         "appDescription_": ""
@@ -217,6 +219,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Firefox": {
@@ -225,6 +228,7 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": false,
+        "appAuthor_": "Intel XDK",
         "appName_": "sharing",
         "appID_": "not.yet.specified",
         "appAccess_":[
@@ -253,6 +257,7 @@
         ],
         "icons_": [],
         "splashes_": [],
+        "appAuthor_": "Intel XDK",
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1"
@@ -273,6 +278,7 @@
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
+        "appAuthor_": "Intel XDK",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1"
       },
@@ -292,6 +298,7 @@
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
+        "appAuthor_": "Intel XDK",
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
         "cordovaCLIVersion_": "?"
