@@ -98,11 +98,15 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.shar",
-       "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -126,11 +130,15 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.sha",
-        "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -154,11 +162,15 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.sharing",
-        "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -186,11 +198,15 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "com.intel.sharing",
-        "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -210,11 +226,15 @@
         "isActive_": false,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -231,11 +251,15 @@
         "appAuthor_": "Intel XDK",
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -250,11 +274,15 @@
         "isActive_": false,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "appAuthor_": "Intel XDK",
@@ -270,11 +298,15 @@
         "isActive_": false,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-        "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -290,11 +322,15 @@
         "isActive_": true,
         "appName_": "sharing",
         "appID_": "not.yet.specified",
-       "appAccess_":[
-          {
-         "origin":"*"
-          }
-        ],
+        "appAccess_": {
+            "mode": "legacy",
+            "network": [
+                "http://debug-software.intel.com/*", 
+                "https://debug-software.intel.com/*"
+            ],
+            "intents": [],
+            "navigation": []
+        },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
