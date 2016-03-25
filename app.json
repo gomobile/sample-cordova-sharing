@@ -9,11 +9,10 @@
   "group" : "other",
   "visible" : true,
   "samples" : true,
-  "keywords" : ["jQuery" , "Game"],
-  "highlights" : ["Swipe gestures" , "Animation"],
+  "appPreview" : false,
+  "keywords" : [],
+  "highlights" : [],
   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
-  "gameEngine" : { "name": "cocos2d" , "version": "2.x" },
   "appname" : "demo.cordovasharing",
-  "relname" : "4.0.0",
-  "relationship" : "cocos2d"
+  "relname" : "4.0.0"
 }
