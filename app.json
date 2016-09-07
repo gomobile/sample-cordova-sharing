@@ -1,18 +1,15 @@
 {
   "title" : "Cordova sharing",
-  "abbr" : "Cordova sharing", 
-  "tooltip" : "A simple HTML5 app that show how text or files can be shared with other apps like Facebook, Twitter, SMS or Email.",
+  "abbr" : "Cordova sharing",
+  "tooltip" : "Share with other apps like Facebook, Twitter, SMS or Email.",
   "description" : "A simple HTML5 app that show how text or files can be shared with other apps like Facebook, Twitter, SMS or Email.",
   "repoName" : "sample-cordova-sharing",
   "articleUrl" : "https://github.com/krisrak/html5-cordova-plugin-sharing",
   "section" : "samples",
   "group" : "other",
   "visible" : true,
-  "samples" : true,
+  "sample" : true,
   "appPreview" : false,
-  "keywords" : [],
-  "highlights" : [],
-  "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
-  "appname" : "demo.cordovasharing",
-  "relname" : "4.0.0"
+  "keywords" : ["Cordova"],
+  "projectTypeName" : "com.intel.xdk.projecttype.jsapp"
 }
