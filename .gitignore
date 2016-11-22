@@ -1,16 +1,19 @@
 # ignore Cordova/PhoneGap CLI directories
-# in essence, everything but *.xdk file and www directory
+# in essence, use git to manage everything but
+# *.xdk file, www directory, and other '!/' files listed below
 /*
 !/www
 !/docs
-!/config.xml
+!/package-assets
+!/bower_components
 !/README.md
 !/LICENSE.md
-!/intelxdk.config.additions.xml
 !/*.xdk
 !/*.xdke
+!/intelxdk.config.additions.xml
+!/app.json
+!/icon.png
+!/screenshot.png
+!/bower.json
 !/.gitignore
 !/.jscodehints
-!/app.json
-!/screenshot.png
-!/icon.png
