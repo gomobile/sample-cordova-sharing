@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1471821344527,
-      "creationDate": 1440314737486
+      "creationDate": 1455582738857
     },
     "sourceDirectory": "www",
     "startFile": "index.html",
@@ -57,6 +57,8 @@
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "21",
           "android-installLocation": "auto",
+          "Fullscreen": false,
+          "Orientation": "portrait",
           "android-signed": true
         },
         "isActive_": true,
@@ -87,7 +89,9 @@
         "preferences_": {
           "exit-on-suspend": false,
           "deployment-target": "8.0",
-          "ios-configuration": "adhoc"
+          "ios-configuration": "adhoc",
+          "Fullscreen": false,
+          "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "Intel XDK Sample",
@@ -117,7 +121,9 @@
         "crosswalkVersion_": "?",
         "preferences_": {
           "windows-publisher-display-name": "",
-          "windows-publisher-id": ""
+          "windows-publisher-id": "",
+          "Fullscreen": false,
+          "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "Intel XDK Sample",
@@ -168,6 +174,8 @@
         "preferences_": {},
         "isActive_": false,
         "certificateId_": "",
+        "appName_": "Intel XDK Sample",
+        "appID_": "xdk.intel.sample",
         "appAccess_": {
           "mode": "whitelist",
           "network": [],
@@ -178,13 +186,13 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appName_": "Intel XDK Sample",
-        "appID_": "xdk.intel.sample",
         "appVersion_": "0.0.1",
         "appDescription_": "Intel XDK sample",
         "appAuthor_": "Intel XDK"
       }
     },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
     "projectTags": [
       "XDK-disallow-legacy-whitelist"
     ],
